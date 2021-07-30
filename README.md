@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Background color change
 
 ## Video Walkthrough
 
@@ -33,6 +33,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+One big challenge I faced while builting the app is having the correct things imported.
+Android studio imported "import android.os.FileUtils;" which i have to replace with "import org.apache.commons.io.FileUtils;"
+to make readLines and writeLines work. 
 
 ## License
 
